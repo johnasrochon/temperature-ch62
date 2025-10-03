@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+</head>
+<body>
+
+    <h1>Temperature Converter</h1>
+
+    <div>
+        <label for="temperatureInput">Enter Temperature:</label>
+        <input type="number" id="temperatureInput">
+        <select id="scaleSelect">
+            <option value="C">Celsius (°C)</option>
+            <option value="F">Fahrenheit (°F)</option>
+        </select>
+        <button onclick="displayResult()">Convert</button>
+    </div>
+
+    <p>Converted Temperature: <span id="result"></span></p>
+
+    <script src="./scripts/assignment3.js"></script>
+
+</body>
+</html>
